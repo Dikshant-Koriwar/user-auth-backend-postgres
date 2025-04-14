@@ -1,8 +1,3 @@
-Here’s your **final cleaned-up and properly formatted `README.md`** — perfect for displaying on GitHub:
-
----
-
-```markdown
 # User Authentication with Neon, PostgreSQL, and Prisma
 
 This project is a full-featured user authentication API built using Node.js, Express, Neon PostgreSQL, and Prisma. It implements common authentication features including:
@@ -156,7 +151,7 @@ User-Authentication-Neon-PostgreSQL/
 | GET    | `/me`                     | Get current logged-in user             |
 | GET    | `/logout`                 | Logout user (clear cookie)             |
 | POST   | `/forgot-password`        | Request password reset token           |
-| POST   | `/reset-password/:token` | Reset password with provided token     |
+| POST   | `/reset-password/:token`  | Reset password with provided token     |
 
 ---
 
@@ -230,10 +225,3 @@ import prisma from "../prismaClient.js";
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-```
-
----
-
-Let me know if you want me to push it directly to your repo or if you'd like a Markdown download file.
